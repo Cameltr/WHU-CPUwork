@@ -1,0 +1,130 @@
+C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/pc.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IR.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IR.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IR
+
+Top level modules:
+	IR
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/EX_MEM.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/EX_MEM.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ZeroTest.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ZeroTest.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ZeroTest
+
+Top level modules:
+	ZeroTest
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/instruction_def.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/instruction_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ctrl_encode_def.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ctrl_encode_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/npc.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ID_EX.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ID_EX.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MUX.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MUX.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module MuxOne_out_of_two
+-- Compiling module MuxOne_out_of_three
+-- Compiling module DatatoReg_mux
+
+Top level modules:
+	MuxOne_out_of_two
+	MuxOne_out_of_three
+	DatatoReg_mux
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/alu.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Forwarding.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Forwarding.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Forwarding
+
+Top level modules:
+	Forwarding
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IF_ID.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IF_ID.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ctrl.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/im.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MEM_WB.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MEM_WB.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/extend.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/extend.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/gpr.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/gpr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/dm.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Solution_of_RAW.v {1 {vlog -work work -vopt C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Solution_of_RAW.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Solution_of_RAW
+
+Top level modules:
+	Solution_of_RAW
+
+} {} {}}

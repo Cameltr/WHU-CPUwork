@@ -1,0 +1,452 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech_10.1a\examples
+valu
+V10UhK5UgbYZF1FbW1Y_Bh2
+r1
+31
+I[7T71664mEz0YP>kcLVSM3
+Z0 dC:\Users\wzy\Desktop\Pipelinecpu\Pipelinecpu
+w1617561080
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/alu.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/alu.v
+L0 4
+Z1 OE;L;10.1a;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 ^mbGO]_RMlM`>]GU2;_ok0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/alu.v|
+!s108 1617679258.659000
+!s107 ctrl_encode_def.v|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/alu.v|
+vctrl
+VDl29A?:H_D6mcO?DzYK=D0
+r1
+31
+I;@H]0<m<PZLRi^g;VJzn]3
+Z3 dC:\Users\wzy\Desktop\Pipelinecpu\Pipelinecpu
+w1617561411
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ctrl.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ctrl.v
+L0 4
+R1
+R2
+!i10b 1
+!s85 0
+!s100 QcGcD^;F^<CM^F:blD=ge1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ctrl.v|
+!s108 1617679258.900000
+!s107 instruction_def.v|ctrl_encode_def.v|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ctrl.v|
+vDatatoReg_mux
+Ib^hmo6:@X=gOPW;]R]a`;3
+V:PPO:H<?En@QHS?O^OiXK2
+R3
+Z4 w1617678599
+Z5 8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MUX.v
+Z6 FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MUX.v
+L0 30
+R1
+r1
+31
+Z7 !s108 1617679262.370000
+Z8 !s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MUX.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MUX.v|
+R2
+n@datato@reg_mux
+!s100 AVGj8jT9M@N]eTg<@7MZV3
+!i10b 1
+!s85 0
+vdm
+V355ze>nZ_LZM_di<`>17m1
+r1
+31
+ILdFl@=jC0c6=ClhYUmAbT1
+R3
+w1616258823
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/dm.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/dm.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 ld?0a?a80BTiodiUk<ogi0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/dm.v|
+!s108 1617679259.378000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/dm.v|
+vEX_MEM
+VHb3mYIHl0WAFWVa96MS7W3
+r1
+31
+Ihnc^]b3eQ34BLh^N1M^lK2
+R3
+w1617522855
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/EX_MEM.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/EX_MEM.v
+L0 1
+R1
+R2
+n@e@x_@m@e@m
+!i10b 1
+!s85 0
+!s100 D:W6KN3@bjPH^Ngm=kka22
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/EX_MEM.v|
+!s108 1617679259.615000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/EX_MEM.v|
+vextend
+VG`nMW=[N<C5lR5f:EC=nJ2
+r1
+31
+Il0cB[d4XU3jkmEQJ>Wn`E0
+R3
+w1617555513
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/extend.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/extend.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 m4kV@jf2BRY69IcnD<VSG1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/extend.v|
+!s108 1617679259.868000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/extend.v|
+vForwarding
+VhN3S;b:G`e@Sk5UmVEMml3
+r1
+31
+IKM:B4?BGThji2YG6Hd]e=3
+R3
+w1617634691
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Forwarding.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Forwarding.v
+L0 4
+R1
+R2
+n@forwarding
+!i10b 1
+!s85 0
+!s100 H@=b^GmNBKYdikC2iNQdQ3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Forwarding.v|
+!s108 1617679260.149000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Forwarding.v|
+vgpr
+VH?Z17X]1kGCm0HEhSB>ob0
+r1
+31
+IMKBYS60S?g1n?O]o[XQBX2
+R3
+w1616258925
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/gpr.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/gpr.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 5Lbn9nl[Dz9XkQmVezMzz0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/gpr.v|
+!s108 1617679260.474000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/gpr.v|
+vHazardDetector
+I[ml0Yn]P`A<jG@>d9cPYP3
+V>DY[A7KKj33OAZ_Ve0fII3
+R3
+w1617552150
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/HazardDetector.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/HazardDetector.v
+L0 1
+R1
+r1
+31
+R2
+n@hazard@detector
+!s100 Q24:f53_Ra:@SlVD;4X3c0
+!s108 1617629306.501000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/HazardDetector.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/HazardDetector.v|
+!i10b 1
+!s85 0
+vHazardInspector
+VD:79^PnW1SMboSlH=2bF[0
+r1
+31
+I5zFDgXJ4^FS5FHaJg`H;P0
+R3
+w1617632409
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/HazardInspector.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/HazardInspector.v
+L0 1
+R1
+R2
+n@hazard@inspector
+!i10b 1
+!s85 0
+!s100 XI>O4kPeaba_@NoJPWQU33
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/HazardInspector.v|
+!s108 1617679263.445000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/HazardInspector.v|
+vID_EX
+VL=KGYH_WUE@4JSfjicfdV1
+r1
+31
+Ik7A`m?jKo@CV[YY4<Z5mW1
+R3
+w1617591327
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ID_EX.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ID_EX.v
+L0 1
+R1
+R2
+n@i@d_@e@x
+!i10b 1
+!s85 0
+!s100 >J?M]dfzAaA8AGXDi9jkS1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ID_EX.v|
+!s108 1617679260.740000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ID_EX.v|
+vIF_ID
+VYZ_KI[:HDOC5eoloQ?MeC0
+r1
+31
+IdbCZ^N@C;Tk68^Ne6Q5:]1
+R3
+w1617613211
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IF_ID.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IF_ID.v
+L0 1
+R1
+R2
+n@i@f_@i@d
+!i10b 1
+!s85 0
+!s100 IF:ScgDojHMW9TVc;RjZ12
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IF_ID.v|
+!s108 1617679260.998000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IF_ID.v|
+vim
+VSSbo1FD805E`Wd]dmn::S2
+r1
+31
+INJ_g6onRenM_KkeUBDAoJ2
+R3
+w1615191925
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/im.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/im.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 EY_`=3gV5gaVJKU=>>gAU2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/im.v|
+!s108 1617679261.252000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/im.v|
+vIR
+I88API2alj<<U32f`7M[VP0
+VdoiokPZdC@Pj=oAcaieao3
+R3
+w1615343307
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IR.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IR.v
+L0 1
+R1
+r1
+31
+R2
+n@i@r
+!s100 ;o[k<k66bL]X=lAeCE3l41
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IR.v|
+!s108 1617679261.675000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/IR.v|
+!i10b 1
+!s85 0
+vMEM_WB
+!i10b 1
+Vz>>Xk<MQDIolagn]R0@5Q1
+r1
+!s85 0
+31
+IKL>dBN0mJ7CD6nD:nKNmc3
+R3
+w1617526389
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MEM_WB.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MEM_WB.v
+L0 1
+R1
+R2
+n@m@e@m_@w@b
+!s100 dz`z:_YGD6lkiI_9@?zPD2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MEM_WB.v|
+!s108 1617679261.898000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/MEM_WB.v|
+vmips
+ViaK5WAZXbPD=16MT0>6QG3
+r1
+31
+IEMn0<:zD9LZlIQdoX:_4B3
+R3
+w1617679213
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/mips.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/mips.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/mips.v|
+!s100 n`DH4=hGYKe=eg7d?_1?R1
+!s108 1617679262.137000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/mips.v|
+vMuxOne_out_of_three
+VC:MT0I3Ze:XJdaUQ9O2ma2
+r1
+31
+IC]aGXCe`Ke@F9nmDYD?=22
+R3
+R4
+R5
+R6
+L0 10
+R1
+R7
+R8
+R9
+R2
+n@mux@one_out_of_three
+!i10b 1
+!s85 0
+!s100 omSl2lUDM`U[0>OfkTVJK3
+vMuxOne_out_of_two
+VWEV5AGaG2TDfY]fcDaePV1
+r1
+31
+Ie`Uee9MbaOTn`fYEMi2^P1
+R3
+R4
+R5
+R6
+L0 1
+R1
+R7
+R8
+R9
+R2
+n@mux@one_out_of_two
+!i10b 1
+!s85 0
+!s100 =>FZ3VIl<f_2^baMC1_Bc3
+vnpc
+VTRhGj=oHQh89GV<@;RSQE3
+r1
+31
+Il2kIm^1g7lJoK5^VCbg[Y1
+R3
+w1617676641
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/npc.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/npc.v
+L0 3
+R1
+R2
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/npc.v|
+!s100 gB0TH1i]1^<;Ce?0kW4O?3
+!s108 1617679262.651000
+!s107 ctrl_encode_def.v|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/npc.v|
+vpc
+VcJ=4GD167OKiI^AD:^2I?3
+r1
+31
+IK^3T42Z2@55?FzlMe19US1
+R3
+w1617613150
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/pc.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/pc.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 <HGo:3iX23K5a1h7g=bI<0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/pc.v|
+!s108 1617679262.903000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/pc.v|
+vRegDst_mux
+IgeS4egheaK;f4[9Ij[4z61
+V_7<S7eMN`m`1cd9dC6j]e2
+R3
+w1617636539
+R5
+R6
+L0 30
+R1
+r1
+31
+R8
+R9
+R2
+n@reg@dst_mux
+!s108 1617636925.854000
+!s100 7enmV9_ET@>eU6IMi[Z`42
+!i10b 1
+!s85 0
+vSolution_of_RAW
+V;;4bdXMUN?VWzh6=XzJGD0
+r1
+31
+I_K8OD6elE<Zk?4??SSK0i2
+R3
+w1617635335
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Solution_of_RAW.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Solution_of_RAW.v
+L0 3
+R1
+R2
+n@solution_of_@r@a@w
+!i10b 1
+!s85 0
+!s100 lS[@49`SB553Zl2H3]YnC3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Solution_of_RAW.v|
+!s108 1617679263.690000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/Solution_of_RAW.v|
+vWBtoID
+I4I9<fi`;H^YRJb`dlamn=1
+VnCzoM1J52`65AH<QmHNF]2
+R3
+w1617528827
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/WBtoID.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/WBtoID.v
+L0 2
+R1
+r1
+31
+R2
+n@w@bto@i@d
+!s100 53Kh[JE;jUNAlM>OIa:aU2
+!s108 1617629307.405000
+!s107 C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/WBtoID.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/WBtoID.v|
+!i10b 1
+!s85 0
+vZeroTest
+Vc369ffi2i_TMgc_6QcQ<32
+r1
+31
+Ie>:WEDaR1KbN]7`5_1BKg0
+R3
+w1617561194
+8C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ZeroTest.v
+FC:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ZeroTest.v
+L0 3
+R1
+R2
+n@zero@test
+!i10b 1
+!s85 0
+!s100 en26VTE<G^OM79_f1Cc:<1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ZeroTest.v|
+!s108 1617679263.183000
+!s107 ctrl_encode_def.v|C:/Users/wzy/Desktop/Pipelinecpu/Pipelinecpu/ZeroTest.v|

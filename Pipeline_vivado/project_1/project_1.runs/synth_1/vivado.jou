@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu May  6 16:55:14 2021
+# Process ID: 10104
+# Current directory: C:/Users/Administrator/Desktop/test1/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log sccomp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sccomp.tcl
+# Log file: C:/Users/Administrator/Desktop/test1/project_1/project_1.runs/synth_1/sccomp.vds
+# Journal file: C:/Users/Administrator/Desktop/test1/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sccomp.tcl -notrace
